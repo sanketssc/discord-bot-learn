@@ -1,7 +1,7 @@
 import hikari
-import token
+import token1
 
-bot = hikari.GatewayBot(token=token.token)
+bot = hikari.GatewayBot(token=token1.token)
 
 @bot.listen()
 async def ping(event: hikari.GuildMessageCreateEvent) -> None:
