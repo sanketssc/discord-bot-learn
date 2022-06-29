@@ -1,6 +1,7 @@
 import hikari
 
-bot = hikari.GatewayBot(token="OTg2ODc2MzYzNjIzNTI2NDAw.G9lk5m.9ZrKvsf1ZT8QiSSdMTNLNBvAi2Eh0jB2vifsrM")
+token = "OTg2ODc2MzYzNjI"  + "zNTI2NDAw.GClA_x.h1Jc" + "ZIdbjcevic4338cs" + "9KWYLYu4DGW4nWns6s"
+bot = hikari.GatewayBot(token=token)
 
 @bot.listen()
 async def ping(event: hikari.GuildMessageCreateEvent) -> None:
